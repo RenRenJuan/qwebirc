@@ -1,23 +1,13 @@
-# qwebirc IRC client
+# [Used here](https://irc.sameboat.live)
+<span style="font-size: 12px">Divergence from original developer's pkg</span>
 
-![CI](https://github.com/qwebirc/qwebirc/workflows/CI/badge.svg)
+ Forked to add features needed for my purposes. Original readme is in qwebirc.md.
 
-## Installation
-Installation instructions are on the website: https://qwebirc.org/installation
+## 2.0.0
+   
+ Pass DS MCS station and device context to qwebirc and thence to bitlbee.
 
-## Hacking on qwebirc
 
-If you'd like to make modifications you'd find it a LOT easier if create the following symlinks:
 
-- js -> static/js/debug
-- css -> static/css/debug
 
-with a command like
 
-```
-cd /path/qwebirc
-ln -s ../../js static/js/debug
-ln -s ../../css static/css/debug
-```
-
-... then you can browse to http://instance/quidebug.html and use your favourite javascript debugger, as well as not having to compile each time you make a change!
